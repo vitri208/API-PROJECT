@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0 0 20px;
+  border-radius: 30px;
+  min-width: 25%;
+  max-height: max-content;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+input, button {
+  border: none;
+  background-color: transparent;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.weight{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.id{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
